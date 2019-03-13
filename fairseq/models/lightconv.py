@@ -190,6 +190,8 @@ class LightConvLanguageModel(FairseqLanguageModel):
                             help='dropout probability of the inputs')
         parser.add_argument('--decoder-embed-dim', type=int, metavar='N',
                             help='decoder embedding dimension')
+        parser.add_argument('--decoder-conv-dim', type=int, metavar='N',
+                            help='decoder embedding dimension')
         parser.add_argument('--decoder-output-dim', type=int, metavar='N',
                             help='decoder output dimension')
         parser.add_argument('--decoder-input-dim', type=int, metavar='N',
